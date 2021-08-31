@@ -5,8 +5,11 @@ def binary_search(arr,target):
     r = len(arr) - 1
 
     while l <= r:
+        
         # find the middle element
-        # we use (l+(r-l)) instead of (l+r) because, if l and r are very large numbers, it might be a case that the addition of both of them results into a value that is beyond the range of python's limit to store.
+        # we use (l+(r-l)) instead of (l+r) because, if l and r are very large numbers, 
+        #it might be a case that the addition of both of them results into a value that is beyond the range of python's limit to store.
+        
         mid = l + (r-l) // 2
 
         if arr[mid] < target:
