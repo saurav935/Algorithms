@@ -14,7 +14,6 @@ def order_agnostic_binary_search(arr,target):
         if is_ascending:
             if arr[mid] < target:
                 l = mid+1
-
             else:
                 r = mid-1
 
