@@ -12,11 +12,11 @@ def binary_search(arr,target):
         
         mid = l + (r-l) // 2
 
-        if arr[mid] < target:
-            l = mid+1
-
-        elif arr[mid] > target:
+        if arr[mid] > target:
             r = mid-1
+
+        elif arr[mid] < target:
+            l = mid+1
 
         # target found
         else:
