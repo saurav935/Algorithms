@@ -1,22 +1,22 @@
 
 
 def binary_search(arr,target):
-    l = 0
-    r = len(arr) - 1
+    start = 0
+    end = len(arr) - 1
 
-    while l <= r:
+    while start <= end:
         
         # find the middle element
         # we use (l+(r-l)) instead of (l+r) because, if l and r are very large numbers, 
         #it might be a case that the addition of both of them results into a value that is beyond the range of python's limit to store.
         
-        mid = l + (r-l) // 2
+        mid = start + (end - start) // 2
 
         if arr[mid] > target:
-            r = mid-1
+            end = mid-1
 
         elif arr[mid] < target:
-            l = mid+1
+            start = mid+1
 
         # target found
         else:
