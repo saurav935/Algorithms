@@ -1,4 +1,7 @@
 
+
+# Applicable only if there are unique elements in the array.
+
 def pivot_finder(self, arr):
     l = 0
     r = len(arr) - 1
