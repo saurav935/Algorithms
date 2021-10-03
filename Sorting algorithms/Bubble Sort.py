@@ -29,6 +29,3 @@ def bubble_sort(arr):
 
     return arr
 
-
-arr = [3,1,5,4,2]
-print(bubble_sort(arr))
