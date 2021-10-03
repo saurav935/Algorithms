@@ -1,6 +1,5 @@
 
 '''
-
 1. Time cpmplexity:
 Best case: O(n)
 Worst case: O(n^2)
