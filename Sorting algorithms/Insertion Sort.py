@@ -1,4 +1,14 @@
 
+'''
+1. Time complexity:
+Worst: O(n^2)
+Best: O(n^2)
+
+2. Unstable algorithm
+
+3. Space complexity: O(1)
+'''
+
 
 def insertion_sort(arr):
     n = len(arr)
