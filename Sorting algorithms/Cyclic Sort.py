@@ -3,7 +3,7 @@
 Time complexity - O(n)
 Space complexity - O(1)
 
-NOTE: Can only be applied when the array is in the range 1 to n, n is the size of the array
+NOTE: Can only be applied when the array is in the range 1 to n, where n is the size of the array
 
 '''
 
